@@ -1,0 +1,18 @@
+# TraceHunt Case Solver Scoring Weights
+
+robbery:
+  at_scene_within_30min: 30
+  visited_2plus_prior_72h: 20
+  never_there_prior_30d: 15
+  left_quickly_after: 15
+  signal_gap_2plus_h_after: 15
+  moved_together_with_suspect: 15
+  verified_alibi: -40
+
+murder:
+  with_victim_within_100m_10min: 30
+  at_victim_final_loc_within_30min: 20
+  with_victim_3plus_prior_14d: 15
+  kept_moving_or_silent_after: 15
+  first_visit_to_scene_area: 10
+  verified_alibi: -40

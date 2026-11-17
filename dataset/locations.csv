@@ -1,0 +1,209 @@
+location_id,name,area,type,latitude,longitude,capacity,open_hour,close_hour
+LOC0001,Ratna Diamond Jewellers,Manek Chowk,retail,23.023837,72.58615,60,10,21
+LOC0002,Apex Commercial Bank,CG Road,bank,23.02865,72.556339,150,9,18
+LOC0003,Highway Fuel Station,SG Highway,petrol_pump,23.056419,72.50606,80,0,24
+LOC0004,Maninagar Express ATM,Maninagar,atm,22.999353,72.600522,10,0,24
+LOC0005,Phoenix Grand Mall,Vastrapur,commercial,23.034532,72.525179,2500,10,22
+LOC0006,Sabarmati Riverfront Promenade North,Sabarmati,park,23.058312,72.580032,1000,6,23
+LOC0007,Law Garden Woodland Alley,Law Garden,park,23.022159,72.556193,400,6,22
+LOC0008,Kankaria West Quiet Gate,Kankaria Lake,park,23.006899,72.60227,600,6,22
+LOC0009,Navrangpura Heritage Society #1,Navrangpura,residential,23.033645,72.561071,1500,0,24
+LOC0010,Navrangpura Heritage Society #2,Navrangpura,residential,23.040713,72.554078,1500,0,24
+LOC0011,CG Road Heritage Society #1,CG Road,residential,23.03367,72.560378,1500,0,24
+LOC0012,CG Road Heritage Society #2,CG Road,residential,23.028083,72.553866,1500,0,24
+LOC0013,Manek Chowk Heritage Society #1,Manek Chowk,residential,23.028487,72.587039,1500,0,24
+LOC0014,Manek Chowk Heritage Society #2,Manek Chowk,residential,23.018113,72.584161,1500,0,24
+LOC0015,Maninagar Heritage Society #1,Maninagar,residential,23.00117,72.604245,1500,0,24
+LOC0016,Maninagar Heritage Society #2,Maninagar,residential,23.000686,72.605757,1500,0,24
+LOC0017,SG Highway Heritage Society #1,SG Highway,residential,23.055435,72.510677,1500,0,24
+LOC0018,SG Highway Heritage Society #2,SG Highway,residential,23.053542,72.505624,1500,0,24
+LOC0019,Vastrapur Heritage Society #1,Vastrapur,residential,23.038953,72.529422,1500,0,24
+LOC0020,Vastrapur Heritage Society #2,Vastrapur,residential,23.03934,72.528928,1500,0,24
+LOC0021,Kankaria Lake Heritage Society #1,Kankaria Lake,residential,23.008455,72.59655,1500,0,24
+LOC0022,Kankaria Lake Heritage Society #2,Kankaria Lake,residential,23.002735,72.599473,1500,0,24
+LOC0023,Law Garden Heritage Society #1,Law Garden,residential,23.019958,72.554793,1500,0,24
+LOC0024,Law Garden Heritage Society #2,Law Garden,residential,23.020212,72.555336,1500,0,24
+LOC0025,Motera Heritage Society #1,Motera,residential,23.093628,72.595378,1500,0,24
+LOC0026,Motera Heritage Society #2,Motera,residential,23.090442,72.593514,1500,0,24
+LOC0027,Paldi Heritage Society #1,Paldi,residential,23.010204,72.56724,1500,0,24
+LOC0028,Paldi Heritage Society #2,Paldi,residential,23.014776,72.56331,1500,0,24
+LOC0029,Ellis Bridge Heritage Society #1,Ellis Bridge,residential,23.018054,72.57375,1500,0,24
+LOC0030,Ellis Bridge Heritage Society #2,Ellis Bridge,residential,23.017961,72.569553,1500,0,24
+LOC0031,Sabarmati Heritage Society #1,Sabarmati,residential,23.065874,72.58168,1500,0,24
+LOC0032,Sabarmati Heritage Society #2,Sabarmati,residential,23.060683,72.582215,1500,0,24
+LOC0033,Satellite Heritage Society #1,Satellite,residential,23.032114,72.521312,1500,0,24
+LOC0034,Satellite Heritage Society #2,Satellite,residential,23.024749,72.512385,1500,0,24
+LOC0035,Bodakdev Heritage Society #1,Bodakdev,residential,23.039785,72.514213,1500,0,24
+LOC0036,Bodakdev Heritage Society #2,Bodakdev,residential,23.038532,72.522315,1500,0,24
+LOC0037,Thaltej Heritage Society #1,Thaltej,residential,23.057516,72.505776,1500,0,24
+LOC0038,Thaltej Heritage Society #2,Thaltej,residential,23.054865,72.506748,1500,0,24
+LOC0039,Bopal Heritage Society #1,Bopal,residential,23.038975,72.467506,1500,0,24
+LOC0040,Bopal Heritage Society #2,Bopal,residential,23.031179,72.46496,1500,0,24
+LOC0041,Nikol Heritage Society #1,Nikol,residential,23.044736,72.662153,1500,0,24
+LOC0042,Nikol Heritage Society #2,Nikol,residential,23.045015,72.669774,1500,0,24
+LOC0043,Naroda Heritage Society #1,Naroda,residential,23.070793,72.654632,1500,0,24
+LOC0044,Naroda Heritage Society #2,Naroda,residential,23.07797,72.658114,1500,0,24
+LOC0045,Chandkheda Heritage Society #1,Chandkheda,residential,23.105091,72.579565,1500,0,24
+LOC0046,Chandkheda Heritage Society #2,Chandkheda,residential,23.105316,72.586529,1500,0,24
+LOC0047,Gota Heritage Society #1,Gota,residential,23.101505,72.534066,1500,0,24
+LOC0048,Gota Heritage Society #2,Gota,residential,23.092762,72.533579,1500,0,24
+LOC0049,Isanpur Heritage Society #1,Isanpur,residential,22.985953,72.600349,1500,0,24
+LOC0050,Isanpur Heritage Society #2,Isanpur,residential,22.985653,72.604329,1500,0,24
+LOC0051,Vatva Heritage Society #1,Vatva,residential,22.959138,72.627649,1500,0,24
+LOC0052,Vatva Heritage Society #2,Vatva,residential,22.967181,72.625444,1500,0,24
+LOC0053,Sarkhej Heritage Society #1,Sarkhej,residential,22.982202,72.501692,1500,0,24
+LOC0054,Sarkhej Heritage Society #2,Sarkhej,residential,22.980339,72.499217,1500,0,24
+LOC0055,Shahibaug Heritage Society #1,Shahibaug,residential,23.057445,72.598446,1500,0,24
+LOC0056,Shahibaug Heritage Society #2,Shahibaug,residential,23.06251,72.590161,1500,0,24
+LOC0057,Ashram Road Heritage Society #1,Ashram Road,residential,23.035007,72.566144,1500,0,24
+LOC0058,Ashram Road Heritage Society #2,Ashram Road,residential,23.039952,72.574446,1500,0,24
+LOC0059,Samyak Dining Pavilion Navrangpura,Navrangpura,restaurant,23.0452,72.560184,150,11,23
+LOC0060,Dev Plaza Stores Navrangpura,Navrangpura,retail,23.028668,72.5663,200,10,21
+LOC0061,Navkar Quick Cash Navrangpura,Navrangpura,atm,23.047884,72.570138,15,0,24
+LOC0062,Shivalik Care Hospital Navrangpura,Navrangpura,hospital,23.039375,72.559727,400,0,24
+LOC0063,Navrangpura BRTS Cross Station,Navrangpura,transit,23.047298,72.569089,500,5,23
+LOC0064,Aditya Dining Pavilion Navrangpura,Navrangpura,restaurant,23.044363,72.553747,150,11,23
+LOC0065,Dev Care Hospital CG Road,CG Road,hospital,23.039072,72.568727,400,0,24
+LOC0066,CG Road BRTS Cross Station,CG Road,transit,23.035566,72.565585,500,5,23
+LOC0067,Surya Dining Pavilion CG Road,CG Road,restaurant,23.030785,72.549018,150,11,23
+LOC0068,Siddh Plaza Stores CG Road,CG Road,retail,23.029407,72.559195,200,10,21
+LOC0069,Samyak Quick Cash CG Road,CG Road,atm,23.030664,72.560558,15,0,24
+LOC0070,Dev Care Hospital CG Road,CG Road,hospital,23.040294,72.564126,400,0,24
+LOC0071,Ganesh Plaza Stores Manek Chowk,Manek Chowk,retail,23.015828,72.584481,200,10,21
+LOC0072,Siddh Quick Cash Manek Chowk,Manek Chowk,atm,23.026597,72.587514,15,0,24
+LOC0073,Navkar Care Hospital Manek Chowk,Manek Chowk,hospital,23.021836,72.58295,400,0,24
+LOC0074,Manek Chowk BRTS Cross Station,Manek Chowk,transit,23.019114,72.591119,500,5,23
+LOC0075,Dev Dining Pavilion Manek Chowk,Manek Chowk,restaurant,23.025123,72.577173,150,11,23
+LOC0076,Ganesh Plaza Stores Manek Chowk,Manek Chowk,retail,23.026146,72.582495,200,10,21
+LOC0077,Maninagar BRTS Cross Station,Maninagar,transit,23.005631,72.592701,500,5,23
+LOC0078,Dev Dining Pavilion Maninagar,Maninagar,restaurant,22.991683,72.60265,150,11,23
+LOC0079,Navkar Plaza Stores Maninagar,Maninagar,retail,22.988175,72.613452,200,10,21
+LOC0080,Pramukh Quick Cash Maninagar,Maninagar,atm,22.998829,72.596832,15,0,24
+LOC0081,Swastik Care Hospital Maninagar,Maninagar,hospital,23.00438,72.59557,400,0,24
+LOC0082,Maninagar BRTS Cross Station,Maninagar,transit,23.000816,72.599503,500,5,23
+LOC0083,Akshar Quick Cash SG Highway,SG Highway,atm,23.054209,72.510498,15,0,24
+LOC0084,Siddh Care Hospital SG Highway,SG Highway,hospital,23.058683,72.508508,400,0,24
+LOC0085,SG Highway BRTS Cross Station,SG Highway,transit,23.052663,72.501143,500,5,23
+LOC0086,Aditya Dining Pavilion SG Highway,SG Highway,restaurant,23.045622,72.497598,150,11,23
+LOC0087,Navkar Plaza Stores SG Highway,SG Highway,retail,23.053767,72.503125,200,10,21
+LOC0088,Samyak Quick Cash SG Highway,SG Highway,atm,23.054103,72.513988,15,0,24
+LOC0089,Titanium Dining Pavilion Vastrapur,Vastrapur,restaurant,23.033635,72.536672,150,11,23
+LOC0090,Navkar Plaza Stores Vastrapur,Vastrapur,retail,23.02535,72.531651,200,10,21
+LOC0091,Navkar Quick Cash Vastrapur,Vastrapur,atm,23.043065,72.539256,15,0,24
+LOC0092,Surya Care Hospital Vastrapur,Vastrapur,hospital,23.043369,72.519991,400,0,24
+LOC0093,Vastrapur BRTS Cross Station,Vastrapur,transit,23.034553,72.536752,500,5,23
+LOC0094,Shivalik Dining Pavilion Vastrapur,Vastrapur,restaurant,23.026951,72.516052,150,11,23
+LOC0095,Akshar Care Hospital Kankaria Lake,Kankaria Lake,hospital,23.000365,72.608818,400,0,24
+LOC0096,Kankaria Lake BRTS Cross Station,Kankaria Lake,transit,23.000846,72.606718,500,5,23
+LOC0097,Ganesh Dining Pavilion Kankaria Lake,Kankaria Lake,restaurant,23.01789,72.603338,150,11,23
+LOC0098,Ganesh Plaza Stores Kankaria Lake,Kankaria Lake,retail,23.00568,72.594558,200,10,21
+LOC0099,Dev Quick Cash Kankaria Lake,Kankaria Lake,atm,23.017249,72.6039,15,0,24
+LOC0100,Navkar Care Hospital Kankaria Lake,Kankaria Lake,hospital,22.995463,72.597527,400,0,24
+LOC0101,Shivalik Plaza Stores Law Garden,Law Garden,retail,23.02702,72.558068,200,10,21
+LOC0102,Aditya Quick Cash Law Garden,Law Garden,atm,23.025747,72.547365,15,0,24
+LOC0103,Navkar Care Hospital Law Garden,Law Garden,hospital,23.014923,72.55046,400,0,24
+LOC0104,Law Garden BRTS Cross Station,Law Garden,transit,23.014631,72.566684,500,5,23
+LOC0105,Akshar Dining Pavilion Law Garden,Law Garden,restaurant,23.015877,72.567367,150,11,23
+LOC0106,Dev Plaza Stores Law Garden,Law Garden,retail,23.026894,72.546954,200,10,21
+LOC0107,Motera BRTS Cross Station,Motera,transit,23.090061,72.599008,500,5,23
+LOC0108,Navkar Dining Pavilion Motera,Motera,restaurant,23.087593,72.591258,150,11,23
+LOC0109,Siddh Plaza Stores Motera,Motera,retail,23.097189,72.590728,200,10,21
+LOC0110,Akshar Quick Cash Motera,Motera,atm,23.083141,72.600492,15,0,24
+LOC0111,Swastik Care Hospital Motera,Motera,hospital,23.087588,72.603045,400,0,24
+LOC0112,Motera BRTS Cross Station,Motera,transit,23.080224,72.599908,500,5,23
+LOC0113,Pramukh Quick Cash Paldi,Paldi,atm,23.024906,72.551758,15,0,24
+LOC0114,Dev Care Hospital Paldi,Paldi,hospital,23.013141,72.553179,400,0,24
+LOC0115,Paldi BRTS Cross Station,Paldi,transit,23.022141,72.571102,500,5,23
+LOC0116,Maruti Dining Pavilion Paldi,Paldi,restaurant,23.00784,72.560516,150,11,23
+LOC0117,Navkar Plaza Stores Paldi,Paldi,retail,23.017885,72.56468,200,10,21
+LOC0118,Surya Quick Cash Paldi,Paldi,atm,23.016695,72.550188,15,0,24
+LOC0119,Aditya Dining Pavilion Ellis Bridge,Ellis Bridge,restaurant,23.02331,72.581362,150,11,23
+LOC0120,Titanium Plaza Stores Ellis Bridge,Ellis Bridge,retail,23.032534,72.562223,200,10,21
+LOC0121,Titanium Quick Cash Ellis Bridge,Ellis Bridge,atm,23.031353,72.576818,15,0,24
+LOC0122,Mondeal Care Hospital Ellis Bridge,Ellis Bridge,hospital,23.016536,72.573516,400,0,24
+LOC0123,Ellis Bridge BRTS Cross Station,Ellis Bridge,transit,23.018229,72.5755,500,5,23
+LOC0124,Aditya Dining Pavilion Ellis Bridge,Ellis Bridge,restaurant,23.016336,72.570725,150,11,23
+LOC0125,Aditya Care Hospital Sabarmati,Sabarmati,hospital,23.049219,72.583223,400,0,24
+LOC0126,Sabarmati BRTS Cross Station,Sabarmati,transit,23.05464,72.568085,500,5,23
+LOC0127,Surya Dining Pavilion Sabarmati,Sabarmati,restaurant,23.05114,72.591515,150,11,23
+LOC0128,Mondeal Plaza Stores Sabarmati,Sabarmati,retail,23.06579,72.58124,200,10,21
+LOC0129,Akshar Quick Cash Sabarmati,Sabarmati,atm,23.061462,72.570685,15,0,24
+LOC0130,Ganesh Care Hospital Sabarmati,Sabarmati,hospital,23.069694,72.581094,400,0,24
+LOC0131,Aditya Plaza Stores Satellite,Satellite,retail,23.024861,72.519261,200,10,21
+LOC0132,Akshar Quick Cash Satellite,Satellite,atm,23.019059,72.513398,15,0,24
+LOC0133,Surya Care Hospital Satellite,Satellite,hospital,23.039333,72.506957,400,0,24
+LOC0134,Satellite BRTS Cross Station,Satellite,transit,23.021042,72.511989,500,5,23
+LOC0135,Titanium Dining Pavilion Satellite,Satellite,restaurant,23.024488,72.519437,150,11,23
+LOC0136,Aditya Plaza Stores Satellite,Satellite,retail,23.025753,72.520896,200,10,21
+LOC0137,Bodakdev BRTS Cross Station,Bodakdev,transit,23.052218,72.510682,500,5,23
+LOC0138,Mondeal Dining Pavilion Bodakdev,Bodakdev,restaurant,23.053429,72.524459,150,11,23
+LOC0139,Akshar Plaza Stores Bodakdev,Bodakdev,retail,23.030595,72.522678,200,10,21
+LOC0140,Maruti Quick Cash Bodakdev,Bodakdev,atm,23.048777,72.514881,15,0,24
+LOC0141,Siddh Care Hospital Bodakdev,Bodakdev,hospital,23.050738,72.524458,400,0,24
+LOC0142,Bodakdev BRTS Cross Station,Bodakdev,transit,23.033821,72.521831,500,5,23
+LOC0143,Akshar Quick Cash Thaltej,Thaltej,atm,23.061932,72.516606,15,0,24
+LOC0144,Dev Care Hospital Thaltej,Thaltej,hospital,23.04579,72.518043,400,0,24
+LOC0145,Thaltej BRTS Cross Station,Thaltej,transit,23.048325,72.515088,500,5,23
+LOC0146,Dev Dining Pavilion Thaltej,Thaltej,restaurant,23.04635,72.511841,150,11,23
+LOC0147,Akshar Plaza Stores Thaltej,Thaltej,retail,23.048878,72.516744,200,10,21
+LOC0148,Surya Quick Cash Thaltej,Thaltej,atm,23.047699,72.511396,15,0,24
+LOC0149,Akshar Dining Pavilion Bopal,Bopal,restaurant,23.038308,72.476248,150,11,23
+LOC0150,Maruti Plaza Stores Bopal,Bopal,retail,23.044542,72.458768,200,10,21
+LOC0151,Samyak Quick Cash Bopal,Bopal,atm,23.026286,72.479101,15,0,24
+LOC0152,Samyak Care Hospital Bopal,Bopal,hospital,23.022918,72.470318,400,0,24
+LOC0153,Bopal BRTS Cross Station,Bopal,transit,23.039485,72.463528,500,5,23
+LOC0154,Pramukh Dining Pavilion Bopal,Bopal,restaurant,23.045622,72.458775,150,11,23
+LOC0155,Pramukh Care Hospital Nikol,Nikol,hospital,23.036562,72.654065,400,0,24
+LOC0156,Nikol BRTS Cross Station,Nikol,transit,23.032041,72.675214,500,5,23
+LOC0157,Navkar Dining Pavilion Nikol,Nikol,restaurant,23.048485,72.675566,150,11,23
+LOC0158,Ganesh Plaza Stores Nikol,Nikol,retail,23.048095,72.661741,200,10,21
+LOC0159,Titanium Quick Cash Nikol,Nikol,atm,23.054773,72.675099,15,0,24
+LOC0160,Pramukh Care Hospital Nikol,Nikol,hospital,23.039534,72.673352,400,0,24
+LOC0161,Ganesh Plaza Stores Naroda,Naroda,retail,23.081601,72.658171,200,10,21
+LOC0162,Siddh Quick Cash Naroda,Naroda,atm,23.069801,72.655658,15,0,24
+LOC0163,Samyak Care Hospital Naroda,Naroda,hospital,23.073306,72.650604,400,0,24
+LOC0164,Naroda BRTS Cross Station,Naroda,transit,23.082569,72.662256,500,5,23
+LOC0165,Mondeal Dining Pavilion Naroda,Naroda,restaurant,23.074772,72.653223,150,11,23
+LOC0166,Navkar Plaza Stores Naroda,Naroda,retail,23.080009,72.653293,200,10,21
+LOC0167,Chandkheda BRTS Cross Station,Chandkheda,transit,23.108317,72.58692,500,5,23
+LOC0168,Siddh Dining Pavilion Chandkheda,Chandkheda,restaurant,23.105734,72.583603,150,11,23
+LOC0169,Siddh Plaza Stores Chandkheda,Chandkheda,retail,23.103129,72.584356,200,10,21
+LOC0170,Surya Quick Cash Chandkheda,Chandkheda,atm,23.115663,72.588812,15,0,24
+LOC0171,Samyak Care Hospital Chandkheda,Chandkheda,hospital,23.110371,72.588191,400,0,24
+LOC0172,Chandkheda BRTS Cross Station,Chandkheda,transit,23.100241,72.595848,500,5,23
+LOC0173,Dev Quick Cash Gota,Gota,atm,23.102147,72.528391,15,0,24
+LOC0174,Dev Care Hospital Gota,Gota,hospital,23.089536,72.524109,400,0,24
+LOC0175,Gota BRTS Cross Station,Gota,transit,23.100671,72.541444,500,5,23
+LOC0176,Swastik Dining Pavilion Gota,Gota,restaurant,23.095947,72.538114,150,11,23
+LOC0177,Dev Plaza Stores Gota,Gota,retail,23.10324,72.532215,200,10,21
+LOC0178,Akshar Quick Cash Gota,Gota,atm,23.091856,72.538745,15,0,24
+LOC0179,Shivalik Dining Pavilion Isanpur,Isanpur,restaurant,22.989424,72.608651,150,11,23
+LOC0180,Titanium Plaza Stores Isanpur,Isanpur,retail,22.986682,72.593252,200,10,21
+LOC0181,Surya Quick Cash Isanpur,Isanpur,atm,22.990991,72.600431,15,0,24
+LOC0182,Shivalik Care Hospital Isanpur,Isanpur,hospital,22.981378,72.610019,400,0,24
+LOC0183,Isanpur BRTS Cross Station,Isanpur,transit,22.978955,72.607234,500,5,23
+LOC0184,Siddh Dining Pavilion Isanpur,Isanpur,restaurant,22.980747,72.601414,150,11,23
+LOC0185,Maruti Care Hospital Vatva,Vatva,hospital,22.975801,72.634394,400,0,24
+LOC0186,Vatva BRTS Cross Station,Vatva,transit,22.97256,72.634408,500,5,23
+LOC0187,Akshar Dining Pavilion Vatva,Vatva,restaurant,22.972934,72.626149,150,11,23
+LOC0188,Mondeal Plaza Stores Vatva,Vatva,retail,22.970848,72.624392,200,10,21
+LOC0189,Samyak Quick Cash Vatva,Vatva,atm,22.971043,72.633157,15,0,24
+LOC0190,Samyak Care Hospital Vatva,Vatva,hospital,22.97138,72.625511,400,0,24
+LOC0191,Siddh Plaza Stores Sarkhej,Sarkhej,retail,22.978742,72.498557,200,10,21
+LOC0192,Ganesh Quick Cash Sarkhej,Sarkhej,atm,22.979857,72.494521,15,0,24
+LOC0193,Maruti Care Hospital Sarkhej,Sarkhej,hospital,22.994433,72.489934,400,0,24
+LOC0194,Sarkhej BRTS Cross Station,Sarkhej,transit,22.97855,72.504655,500,5,23
+LOC0195,Ganesh Dining Pavilion Sarkhej,Sarkhej,restaurant,22.978135,72.497957,150,11,23
+LOC0196,Maruti Plaza Stores Sarkhej,Sarkhej,retail,22.986023,72.497979,200,10,21
+LOC0197,Shahibaug BRTS Cross Station,Shahibaug,transit,23.065989,72.590347,500,5,23
+LOC0198,Surya Dining Pavilion Shahibaug,Shahibaug,restaurant,23.060018,72.597693,150,11,23
+LOC0199,Aditya Plaza Stores Shahibaug,Shahibaug,retail,23.067136,72.594817,200,10,21
+LOC0200,Swastik Quick Cash Shahibaug,Shahibaug,atm,23.046142,72.589442,15,0,24
+LOC0201,Surya Care Hospital Shahibaug,Shahibaug,hospital,23.05536,72.602399,400,0,24
+LOC0202,Shahibaug BRTS Cross Station,Shahibaug,transit,23.056057,72.59894,500,5,23
+LOC0203,Navkar Quick Cash Ashram Road,Ashram Road,atm,23.042197,72.579547,15,0,24
+LOC0204,Swastik Care Hospital Ashram Road,Ashram Road,hospital,23.028266,72.56846,400,0,24
+LOC0205,Ashram Road BRTS Cross Station,Ashram Road,transit,23.032333,72.574053,500,5,23
+LOC0206,Surya Dining Pavilion Ashram Road,Ashram Road,restaurant,23.032704,72.561961,150,11,23
+LOC0207,Swastik Plaza Stores Ashram Road,Ashram Road,retail,23.045069,72.581537,200,10,21
+LOC0208,Navkar Quick Cash Ashram Road,Ashram Road,atm,23.023647,72.567456,15,0,24

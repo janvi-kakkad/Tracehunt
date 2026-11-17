@@ -1,0 +1,9 @@
+incident_id,type,location_id,reported_time,victim_person_id,description
+INC001,ROBBERY,LOC0001,2026-08-12 14:15:00,,Armed daylight robbery of gold and diamond trays
+INC002,ROBBERY,LOC0002,2026-08-20 11:30:00,,Vault heist during cash transfer window
+INC003,ROBBERY,LOC0003,2026-08-28 22:45:00,,Late-night cashier cashbox loot
+INC004,ROBBERY,LOC0004,2026-09-04 03:15:00,,ATM cash dispenser gas-cutter breach
+INC005,ROBBERY,LOC0005,2026-09-10 19:20:00,,Luxury electronics counter robbery during rush hour
+INC006,MURDER,LOC0006,2026-08-16 21:30:00,P000101,Victim found dead near river walkway. Repeated prior contact.
+INC007,MURDER,LOC0007,2026-08-25 22:15:00,P000201,Victim found near quiet park alleyway. Stranger encounter.
+INC008,MURDER,LOC0008,2026-09-02 23:00:00,P000301,"Victim found near secondary gate. Two suspects seen, one had alibi."

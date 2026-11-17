@@ -1,0 +1,659 @@
+[
+  {
+    "incident_id": "INC001",
+    "type": "ROBBERY",
+    "location_name": "Ratna Diamond Jewellers",
+    "area": "Manek Chowk",
+    "reported_time": "2026-08-12 14:15:00",
+    "planted_culprit": "P000501",
+    "culprit_rank": 1,
+    "methodology": "Big Data tracked camera footage around Manek Chowk market, found a fake customer asking to see diamond trays to distract staff, caught a stolen bike swap at Raipur Darwaja, and tracked their escape through narrow pedestrian lanes.",
+    "top_leads": [
+      {
+        "person_id": "P000501",
+        "name": "Anand Pandya",
+        "age": 50,
+        "gender": "Male",
+        "occupation": "Shopkeeper",
+        "home_area": "Isanpur",
+        "role": "Main Suspect",
+        "score": 95,
+        "is_planted_culprit": true,
+        "description": "Anand pretended to be a wealthy buyer asking to see expensive diamond trays to distract the salesman. When the salesman turned around, Anand and his partner Farhana grabbed the trays, ran into the crowded market, swapped their scooter for a stolen black motorbike, and escaped through narrow alleys where police cars could not enter.",
+        "clues": [
+          "At the Crime Scene: Caught on camera entering the jewellery shop at 2:10 PM posing as a diamond buyer.",
+          "Distraction Tactic: Asked the salesman to take out heavy diamond trays to keep him busy while grabbing the gold.",
+          "Stolen Bike Swap: Camera at market corner caught them abandoning a scooter and escaping on a single black motorbike.",
+          "Narrow Alley Escape: Fled through narrow pedestrian bazaar lanes (where cars cannot enter), reaching 5.5 km away in 17 minutes."
+        ]
+      },
+      {
+        "person_id": "P000502",
+        "name": "Farhana Chawla",
+        "age": 54,
+        "gender": "Female",
+        "occupation": "Student",
+        "home_area": "Bodakdev",
+        "role": "Partner in Crime",
+        "score": 95,
+        "is_planted_culprit": false,
+        "description": "Farhana entered the shop with Anand to block the shop door and keep the security guard talking. She carried the bag with the stolen trays and drove the getaway motorbike through the market alleys.",
+        "clues": [
+          "Door Lookout: Stood by the shop entrance keeping the security guard talking while Anand grabbed the gold.",
+          "Carried the Bag: Caught on camera holding the black bag as they sprinted out.",
+          "Bike Escape Driver: Drove the getaway motorbike through the crowded market alleys."
+        ]
+      },
+      {
+        "person_id": "P009878",
+        "name": "Ami Gill",
+        "age": 61,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "Ashram Road",
+        "role": "Innocent Shopper",
+        "score": 50,
+        "is_planted_culprit": false,
+        "description": "Customer shopping for traditional silver bangles at the next counter.",
+        "clues": [
+          "Was shopping in the market during the robbery time.",
+          "Cleared: Paid for bangles with credit card; no connection to robbers."
+        ]
+      },
+      {
+        "person_id": "P004221",
+        "name": "Heena Chawla",
+        "age": 59,
+        "gender": "Female",
+        "occupation": "Delivery Rider",
+        "home_area": "Isanpur",
+        "role": "Delivery Rider",
+        "score": 50,
+        "is_planted_culprit": false,
+        "description": "Food delivery rider delivering lunch packages to a shop in the bazaar.",
+        "clues": [
+          "Passed nearby on her regular delivery route.",
+          "Cleared: Active food delivery app log verified."
+        ]
+      },
+      {
+        "person_id": "P005366",
+        "name": "Bhavin Patil",
+        "age": 71,
+        "gender": "Male",
+        "occupation": "Retired",
+        "home_area": "Ashram Road",
+        "role": "Passerby",
+        "score": 50,
+        "is_planted_culprit": false,
+        "description": "Senior citizen walking outside the bazaar entrance.",
+        "clues": [
+          "Walking outside the market at 2:08 PM.",
+          "Cleared: Walking at slow walking speed with walking stick."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC002",
+    "type": "ROBBERY",
+    "location_name": "Apex Commercial Bank",
+    "area": "CG Road",
+    "reported_time": "2026-08-20 11:30:00",
+    "planted_culprit": "P000511",
+    "culprit_rank": 1,
+    "methodology": "Big Data matched security door logs with cell tower signals, finding someone who entered 90 seconds after the cash van arrived using a fake contractor badge, detected an 8-minute phone signal jammer inside the vault, and caught two suspects splitting up in opposite directions.",
+    "top_leads": [
+      {
+        "person_id": "P000511",
+        "name": "Tanvi Menon",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Student",
+        "home_area": "Satellite",
+        "role": "Main Suspect",
+        "score": 95,
+        "is_planted_culprit": true,
+        "description": "Tanvi timed the robbery perfectly with the cash van arrival. She entered the bank 90 seconds after the armored van parked, used a fake electrician contractor uniform to slip into the open vault corridor, turned on a handheld cell phone jammer for 8 minutes to block staff phones, and took the cash bags.",
+        "clues": [
+          "Cash Van Intercept: Entered the bank 90 seconds after the armored cash replenishment van arrived (11:25 AM), exploiting the open vault door.",
+          "Fake Contractor Uniform: Camera flagged her wearing a maintenance worker uniform with no digital employee badge on file.",
+          "Phone Jammer Used: Cell tower recorded a localized 8-minute signal blackout inside the branch while cash bags were taken.",
+          "Split Escape: Ran out and sped north along CG Road while her partner ran south to split up police pursuit."
+        ]
+      },
+      {
+        "person_id": "P000512",
+        "name": "Hetvi Deshmukh",
+        "age": 53,
+        "gender": "Female",
+        "occupation": "Homemaker",
+        "home_area": "Maninagar",
+        "role": "Partner in Crime",
+        "score": 95,
+        "is_planted_culprit": false,
+        "description": "Hetvi watched the armored cash van guards outside and sent a signal to Tanvi when the vault door was opened. During the escape, she purposely ran south towards Law Garden to draw police away from Tanvi.",
+        "clues": [
+          "Outside Lookout: Watched the cash van guards from across the street and signaled Tanvi when the vault transfer began.",
+          "Split Escape: Fled in the opposite direction (south towards Law Garden) to confuse police patrols."
+        ]
+      },
+      {
+        "person_id": "P003211",
+        "name": "Chaitali Reddy",
+        "age": 19,
+        "gender": "Female",
+        "occupation": "Shopkeeper",
+        "home_area": "Bopal",
+        "role": "Bank Customer",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Customer depositing cash at counter #3 during business hours.",
+        "clues": [
+          "Was inside bank during robbery time.",
+          "Cleared: Counter deposit slip stamped by cashier."
+        ]
+      },
+      {
+        "person_id": "P000513",
+        "name": "Heena Iyer",
+        "age": 68,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "Navrangpura",
+        "role": "Bank Customer",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Senior citizen updating her pension passbook in the lobby.",
+        "clues": [
+          "Recorded on lobby camera.",
+          "Cleared: Bank passbook printer timestamp verified."
+        ]
+      },
+      {
+        "person_id": "P007959",
+        "name": "Manish Dave",
+        "age": 49,
+        "gender": "Male",
+        "occupation": "Delivery Rider",
+        "home_area": "Kankaria Lake",
+        "role": "Courier",
+        "score": 50,
+        "is_planted_culprit": false,
+        "description": "Courier delivering legal documents to the law office on the 2nd floor.",
+        "clues": [
+          "Phone connected to tower on CG Road.",
+          "Cleared: Office receptionist signed package receipt."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC003",
+    "type": "ROBBERY",
+    "location_name": "Highway Fuel Station",
+    "area": "SG Highway",
+    "reported_time": "2026-08-28 22:45:00",
+    "planted_culprit": "P000521",
+    "culprit_rank": 1,
+    "methodology": "Big Data analyzed highway traffic cameras, detecting an idling car parked in the fuel station blind spot with headlights off for 25 minutes, striking at the exact midnight shift handover, and speeding through an unpaved bypass to dodge highway toll cameras.",
+    "top_leads": [
+      {
+        "person_id": "P000521",
+        "name": "Kavita Mirza",
+        "age": 74,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "CG Road",
+        "role": "Main Suspect",
+        "score": 110,
+        "is_planted_culprit": true,
+        "description": "Kavita planned the robbery around the petrol pump's shift change. She and her partner waited in a dark blind spot behind the air pump with their car engine running and headlights off for 25 minutes. At 10:40 PM, right as the night cashier was tallying cash, she snatched the cashbox, hopped into the car, and sped through a dirt service road to bypass highway toll cameras.",
+        "clues": [
+          "Shift Change Ambush: Struck the cashier booth at 10:40 PM precisely when the full night cash collection was sitting on the counter.",
+          "Engine Idling in Blind Spot: Car was seen waiting in the dark corner behind the air station for 25 minutes with headlights off.",
+          "Toll Booth Bypass: Sped at 115 km/h past the SG Highway toll plaza using the dirt service road to avoid number plate cameras.",
+          "Discarded Mask at Bin: Cell phone pinged next to a roadside waste bin 3 km down the highway where gloves and masks were dumped."
+        ]
+      },
+      {
+        "person_id": "P000522",
+        "name": "Utkarsh Saiyed",
+        "age": 26,
+        "gender": "Male",
+        "occupation": "Night-shift Worker",
+        "home_area": "Kankaria Lake",
+        "role": "Partner / Getaway Driver",
+        "score": 95,
+        "is_planted_culprit": false,
+        "description": "Utkarsh stayed in the driver's seat with the engine running in the dark corner, ready for an immediate getaway. He drove the car at 115 km/h along the dirt service road to dodge the toll cameras.",
+        "clues": [
+          "Getaway Driver: Sat in the idling car in the dark blind spot, ready for immediate highway flight.",
+          "Drove Toll Evasion Route: Drove along the unpaved service track to evade toll plaza camera capture."
+        ]
+      },
+      {
+        "person_id": "P003314",
+        "name": "Riddhi Doshi",
+        "age": 46,
+        "gender": "Female",
+        "occupation": "Doctor or Nurse",
+        "home_area": "Shahibaug",
+        "role": "Customer",
+        "score": 75,
+        "is_planted_culprit": false,
+        "description": "Hospital nurse filling petrol on the way home from her shift.",
+        "clues": [
+          "Petrol bill receipt at 10:38 PM.",
+          "Cleared: Genuine digital payment receipt; hospital shift verified."
+        ]
+      },
+      {
+        "person_id": "P003307",
+        "name": "Jigar Reddy",
+        "age": 18,
+        "gender": "Male",
+        "occupation": "Student",
+        "home_area": "SG Highway",
+        "role": "Customer",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Local youth checking tyre pressure on his motorcycle.",
+        "clues": [
+          "At air-filling point outside.",
+          "Cleared: Resident living nearby; regular routine."
+        ]
+      },
+      {
+        "person_id": "P003316",
+        "name": "Mukesh Shaikh",
+        "age": 31,
+        "gender": "Male",
+        "occupation": "Office Worker",
+        "home_area": "Nikol",
+        "role": "Customer",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Buying cold drinks from the 24/7 store at the fuel station.",
+        "clues": [
+          "Store payment receipt at 10:42 PM.",
+          "Cleared: Genuine store customer."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC004",
+    "type": "ROBBERY",
+    "location_name": "Maninagar Express ATM",
+    "area": "Maninagar",
+    "reported_time": "2026-09-04 03:15:00",
+    "planted_culprit": "P000531",
+    "culprit_rank": 1,
+    "methodology": "Big Data checked ATM machine sensor logs, detecting high heat from gas-cutting torches at 3:10 AM, black spray paint sprayed on camera lenses, external power line tampering, and a 4-hour mobile blackout.",
+    "top_leads": [
+      {
+        "person_id": "P000531",
+        "name": "Rohan Dholakia",
+        "age": 71,
+        "gender": "Male",
+        "occupation": "Office Worker",
+        "home_area": "Naroda",
+        "role": "Main Suspect",
+        "score": 110,
+        "is_planted_culprit": true,
+        "description": "Rohan executed a heavy-tool break-in at 3:00 AM. He cut the external power wires to disable the main siren, sprayed black paint over the CCTV lens, and used a gas cutter to slice through the cash safe. He fled 5.5 km to Sola and turned his phone completely off for almost 4 hours while hiding in an empty godown.",
+        "clues": [
+          "Heat Sensor Trigger: ATM thermal sensor logged a 60°C temperature spike at 3:10 AM when gas torches sliced the safe door.",
+          "Spray-Painted Camera: Security camera recorded black aerosol spray paint covering the lens at 3:08 AM.",
+          "Power Wire Cut: Smart electric meter showed the ATM booth power was cut 10 minutes before the break-in.",
+          "4-Hour Radio Blackout: Kept phone turned off completely for almost 4 hours (3:27 AM to 7:11 AM) while hiding in an empty warehouse."
+        ]
+      },
+      {
+        "person_id": "P000532",
+        "name": "Mansi Chhajed",
+        "age": 20,
+        "gender": "Female",
+        "occupation": "Student",
+        "home_area": "Law Garden",
+        "role": "Partner in Crime",
+        "score": 110,
+        "is_planted_culprit": false,
+        "description": "Mansi carried the heavy gas cylinders into the ATM booth and kept watch on the street. She fled with Rohan to Sola and turned off her phone during the same 4-hour blackout.",
+        "clues": [
+          "Carried Heavy Tools: Caught on camera carrying the oxygen & gas cylinders into the booth at 3:05 AM.",
+          "Street Lookout: Stood outside watching for police night patrol jeeps.",
+          "Blackout Flight: Fled together to Sola and shut off her mobile phone during the same hours."
+        ]
+      },
+      {
+        "person_id": "P003403",
+        "name": "Zoya Motwani",
+        "age": 34,
+        "gender": "Female",
+        "occupation": "Doctor or Nurse",
+        "home_area": "Navrangpura",
+        "role": "Driver / Passerby",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Hospital doctor driving home on the main road at night.",
+        "clues": [
+          "Phone connected to road tower at 3:08 AM.",
+          "Cleared: Driving continuously on main road without stopping."
+        ]
+      },
+      {
+        "person_id": "P003416",
+        "name": "Riddhi Sharma",
+        "age": 22,
+        "gender": "Female",
+        "occupation": "Student",
+        "home_area": "Chandkheda",
+        "role": "Bus Passenger",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Passenger on a night bus arriving at Maninagar bus stand.",
+        "clues": [
+          "Bus stand ticket scan at 3:12 AM.",
+          "Cleared: Inter-city travel ticket verified."
+        ]
+      },
+      {
+        "person_id": "P003413",
+        "name": "Diya Patel",
+        "age": 38,
+        "gender": "Female",
+        "occupation": "Homemaker",
+        "home_area": "Vatva",
+        "role": "Local Resident",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Lives 200m away, went to nearby medical store for emergency medicine.",
+        "clues": [
+          "Phone connected in residential area.",
+          "Cleared: Home address verified nearby."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC005",
+    "type": "ROBBERY",
+    "location_name": "Phoenix Grand Mall",
+    "area": "Ashram Road",
+    "reported_time": "2026-09-10 19:20:00",
+    "planted_culprit": "P000541",
+    "culprit_rank": 1,
+    "methodology": "Big Data analyzed shopping mall IoT sensors, detecting an emergency fire exit door alarm at 7:18 PM, random Wi-Fi MAC address hopping to avoid tracking, and an idling getaway van in the underground loading dock.",
+    "top_leads": [
+      {
+        "person_id": "P000541",
+        "name": "Aarav Arora",
+        "age": 54,
+        "gender": "Male",
+        "occupation": "Night-shift Worker",
+        "home_area": "Ashram Road",
+        "role": "Main Suspect",
+        "score": 95,
+        "is_planted_culprit": true,
+        "description": "Aarav looted the electronics counter during peak evening rush. While his partner created a loud disturbance at the customer service desk to draw guards away, Aarav smashed the glass display, grabbed high-value phones, pushed open the back fire exit door (bypassing metal detectors), and jumped into a van in the underground loading bay.",
+        "clues": [
+          "Fire Exit Door Alarm: Motion sensor logged the back emergency fire door pushed open at 7:18 PM to bypass metal detector gates.",
+          "Wi-Fi MAC Address Hopping: Phone repeatedly joined and dropped mall guest Wi-Fi using randomized hardware addresses to avoid tracking.",
+          "Loading Dock Escape: Escaped through the basement delivery dock where a van was waiting with folded number plates.",
+          "Grab & Run: Snatched high-value phones from the display counter during evening rush hour and ran down the back stairs."
+        ]
+      },
+      {
+        "person_id": "P000542",
+        "name": "Manish Motwani",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Homemaker",
+        "home_area": "Isanpur",
+        "role": "Partner in Crime",
+        "score": 95,
+        "is_planted_culprit": false,
+        "description": "Manish created a loud argument at the customer service desk on the ground floor to distract the security guards. Once Aarav grabbed the goods, Manish met him in the basement loading dock and drove the getaway van.",
+        "clues": [
+          "Security Distraction: Created a loud scene at customer service desk to pull security guards away from the electronics counter.",
+          "Getaway Van in Basement: Kept the delivery van running in the underground loading bay for instant exit."
+        ]
+      },
+      {
+        "person_id": "P003505",
+        "name": "Ayesha Nair",
+        "age": 75,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "Motera",
+        "role": "Shopper",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Shopping for clothes on the 1st floor with her family.",
+        "clues": [
+          "Connected to mall Wi-Fi on 1st floor.",
+          "Cleared: Shopping with family members."
+        ]
+      },
+      {
+        "person_id": "P003502",
+        "name": "Dhara Patel",
+        "age": 66,
+        "gender": "Female",
+        "occupation": "Homemaker",
+        "home_area": "Navrangpura",
+        "role": "Food Court Diner",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Eating dinner at the 3rd floor food court.",
+        "clues": [
+          "Food court dinner bill at 7:18 PM.",
+          "Cleared: Dinner bill verified; stayed in mall after incident."
+        ]
+      },
+      {
+        "person_id": "P000543",
+        "name": "Tariq Zaveri",
+        "age": 39,
+        "gender": "Male",
+        "occupation": "Office Worker",
+        "home_area": "Law Garden",
+        "role": "Movie Watcher",
+        "score": 60,
+        "is_planted_culprit": false,
+        "description": "Watching a movie in the mall cinema hall.",
+        "clues": [
+          "Cinema ticket scanned at 7:10 PM.",
+          "Cleared: Inside movie hall during the entire robbery."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC006",
+    "type": "MURDER",
+    "location_name": "Sabarmati Riverfront Promenade North",
+    "area": "Riverfront",
+    "reported_time": "2026-08-16 21:30:00",
+    "planted_culprit": "P000102",
+    "culprit_rank": 1,
+    "methodology": "Big Data checked people who met with victim Rupal Vora (P000101) before, and who was with her right before she died.",
+    "top_leads": [
+      {
+        "person_id": "P000102",
+        "name": "Binal Saiyed",
+        "age": 70,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "Sabarmati",
+        "role": "Main Suspect",
+        "score": 50,
+        "is_planted_culprit": true,
+        "description": "Binal had met victim Rupal Vora 3 times in the last 2 weeks. On 16 Aug at 9:17 PM (13 minutes before Rupal's body was found), camera caught Binal talking to Rupal on the quiet walkway. Right after, Binal quickly boarded a bus to leave the area.",
+        "clues": [
+          "At Crime Scene: Camera caught her with the victim at 9:17 PM (13 mins before body was found).",
+          "Met Victim 3 Times Before: Crossed paths and met with the victim 3 times in the last 14 days.",
+          "Left Quickly: Boarded a bus at 9:28 PM right after the victim died."
+        ]
+      },
+      {
+        "person_id": "P000103",
+        "name": "Rahul Gandhi",
+        "age": 19,
+        "gender": "Male",
+        "occupation": "Student",
+        "home_area": "Naroda",
+        "role": "Jogger",
+        "score": 30,
+        "is_planted_culprit": false,
+        "description": "Student jogging along the public track. Did not know the victim.",
+        "clues": [
+          "Jogging on track at 9:20 PM.",
+          "Cleared: Running at normal jogging speed; never met victim before."
+        ]
+      },
+      {
+        "person_id": "P000104",
+        "name": "Shruti Raval",
+        "age": 59,
+        "gender": "Female",
+        "occupation": "Office Worker",
+        "home_area": "Isanpur",
+        "role": "Walker",
+        "score": 30,
+        "is_planted_culprit": false,
+        "description": "Walking on riverfront with office friends after dinner.",
+        "clues": [
+          "Connected to riverfront cafe Wi-Fi.",
+          "Cleared: At public cafe with friends during the incident."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC007",
+    "type": "MURDER",
+    "location_name": "Law Garden Woodland Alley",
+    "area": "Law Garden",
+    "reported_time": "2026-08-25 22:15:00",
+    "planted_culprit": "P000202",
+    "culprit_rank": 1,
+    "methodology": "Big Data checked the dark alleyway cameras for anyone who traveled far from home late at night with no reason to be there.",
+    "top_leads": [
+      {
+        "person_id": "P000202",
+        "name": "Nilesh Pillai",
+        "age": 48,
+        "gender": "Male",
+        "occupation": "Student",
+        "home_area": "Isanpur",
+        "role": "Main Suspect",
+        "score": 45,
+        "is_planted_culprit": true,
+        "description": "Nilesh lives 9 km away in Isanpur and had never visited this area before. On 25 Aug at 10:02 PM (13 mins before murder), he entered the dark alley, attacked victim Siddharth Mansuri, and ran through side streets to a bus stop.",
+        "clues": [
+          "At Crime Scene: Camera caught him entering dark alley at 10:02 PM (13 mins before murder).",
+          "Far From Home: Lives 9 km away and had never visited Law Garden before.",
+          "Ran Away Fast: Ran through side streets to a bus stop at 10:48 PM right after the fight."
+        ]
+      },
+      {
+        "person_id": "P000204",
+        "name": "Sneha Patil",
+        "age": 60,
+        "gender": "Female",
+        "occupation": "Office Worker",
+        "home_area": "Ashram Road",
+        "role": "Market Shopper",
+        "score": 30,
+        "is_planted_culprit": false,
+        "description": "Shopping at handicrafts stalls near park entrance.",
+        "clues": [
+          "Near well-lit handicraft market entrance.",
+          "Cleared: In crowded public market with witnesses."
+        ]
+      },
+      {
+        "person_id": "P000203",
+        "name": "Parul Panchal",
+        "age": 65,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "Manek Chowk",
+        "role": "Food Stall Diner",
+        "score": 20,
+        "is_planted_culprit": false,
+        "description": "Eating street food at Khau Galli food market.",
+        "clues": [
+          "Phone connected near food stalls at 10:10 PM.",
+          "Cleared: Food vendor confirmed presence."
+        ]
+      }
+    ]
+  },
+  {
+    "incident_id": "INC008",
+    "type": "MURDER",
+    "location_name": "Kankaria West Quiet Gate",
+    "area": "Kankaria",
+    "reported_time": "2026-09-02 23:00:00",
+    "planted_culprit": "P000302",
+    "culprit_rank": 1,
+    "methodology": "Big Data checked two suspects: one had no excuse and was at the scene, while the other was proven innocent because an ATM camera showed them 12 km away.",
+    "top_leads": [
+      {
+        "person_id": "P000302",
+        "name": "Sneha Desai",
+        "age": 60,
+        "gender": "Female",
+        "occupation": "Office Worker",
+        "home_area": "Thaltej",
+        "role": "Main Suspect",
+        "score": 45,
+        "is_planted_culprit": true,
+        "description": "Sneha traveled all the way from Thaltej (11 km away) late at night to the quiet lake gate. Camera caught her at the gate at 10:47 PM (13 mins before murder). She left quickly towards Danilimda and had no alibi.",
+        "clues": [
+          "At Crime Scene: Camera caught her at secluded gate at 10:47 PM (13 mins before murder).",
+          "Late Night Trip: Traveled 11 km across town late at night with no reason.",
+          "Left Quickly: Exited lake grounds at 11:35 PM.",
+          "No Alibi: Has no excuse or proof of whereabouts during murder time."
+        ]
+      },
+      {
+        "person_id": "P000304",
+        "name": "Ishita Kaur",
+        "age": 36,
+        "gender": "Female",
+        "occupation": "Driver",
+        "home_area": "Gota",
+        "role": "Taxi Driver",
+        "score": 30,
+        "is_planted_culprit": false,
+        "description": "Taxi driver waiting for passengers outside the lake gate.",
+        "clues": [
+          "GPS log outside main gate at 10:50 PM.",
+          "Cleared: Picked up passenger at 10:55 PM and drove away."
+        ]
+      },
+      {
+        "person_id": "P000303",
+        "name": "Leela Malek",
+        "age": 61,
+        "gender": "Female",
+        "occupation": "Retired",
+        "home_area": "Sarkhej",
+        "role": "Proven Innocent (Alibi Checked)",
+        "score": -10,
+        "is_planted_culprit": false,
+        "description": "Initially suspected because she had an argument with the victim before. But Big Data checked ATM cameras and proved she was taking out money at an ATM in Sarkhej (12 km away) at 10:50 PM. Physically impossible for her to be at Kankaria Lake.",
+        "clues": [
+          "Proven Innocent by ATM: ATM camera and cash receipt prove she was 12 km away in Sarkhej at 10:50 PM.",
+          "Score -10: Given negative score to completely remove from suspicion.",
+          "Impossible to Commit Crime: Was on the other side of the city at the exact murder time."
+        ]
+      }
+    ]
+  }
+]

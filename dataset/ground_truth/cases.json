@@ -1,0 +1,112 @@
+[
+  {
+    "incident_id": "INC001",
+    "type": "ROBBERY",
+    "planted_culprit": "P000501",
+    "accomplice": "P000502",
+    "decoys": [
+      "P000503",
+      "P000504"
+    ],
+    "alibi_suspects": [
+      "P003100"
+    ],
+    "description": "Armed daylight robbery of gold and diamond trays"
+  },
+  {
+    "incident_id": "INC002",
+    "type": "ROBBERY",
+    "planted_culprit": "P000511",
+    "accomplice": "P000512",
+    "decoys": [
+      "P000513",
+      "P000514"
+    ],
+    "alibi_suspects": [
+      "P003200"
+    ],
+    "description": "Vault heist during cash transfer window"
+  },
+  {
+    "incident_id": "INC003",
+    "type": "ROBBERY",
+    "planted_culprit": "P000521",
+    "accomplice": "P000522",
+    "decoys": [
+      "P000523",
+      "P000524"
+    ],
+    "alibi_suspects": [
+      "P003300"
+    ],
+    "description": "Late-night cashier cashbox loot"
+  },
+  {
+    "incident_id": "INC004",
+    "type": "ROBBERY",
+    "planted_culprit": "P000531",
+    "accomplice": "P000532",
+    "decoys": [
+      "P000533",
+      "P000534"
+    ],
+    "alibi_suspects": [
+      "P003400"
+    ],
+    "description": "ATM cash dispenser gas-cutter breach"
+  },
+  {
+    "incident_id": "INC005",
+    "type": "ROBBERY",
+    "planted_culprit": "P000541",
+    "accomplice": "P000542",
+    "decoys": [
+      "P000543",
+      "P000544"
+    ],
+    "alibi_suspects": [
+      "P003500"
+    ],
+    "description": "Luxury electronics counter robbery during rush hour"
+  },
+  {
+    "incident_id": "INC006",
+    "type": "MURDER",
+    "victim_id": "P000101",
+    "planted_culprit": "P000102",
+    "mode": "A",
+    "decoys": [
+      "P000103",
+      "P000104"
+    ],
+    "alibi_suspects": [],
+    "description": "Victim found dead near river walkway. Repeated prior contact."
+  },
+  {
+    "incident_id": "INC007",
+    "type": "MURDER",
+    "victim_id": "P000201",
+    "planted_culprit": "P000202",
+    "mode": "B",
+    "decoys": [
+      "P000203",
+      "P000204"
+    ],
+    "alibi_suspects": [],
+    "description": "Victim found near quiet park alleyway. Stranger encounter."
+  },
+  {
+    "incident_id": "INC008",
+    "type": "MURDER",
+    "victim_id": "P000301",
+    "planted_culprit": "P000302",
+    "mode": "C",
+    "decoys": [
+      "P000304"
+    ],
+    "alibi_suspects": [
+      "P000303"
+    ],
+    "description": "Victim found near secondary gate. Two suspects seen, one had alibi."
+  }
+]

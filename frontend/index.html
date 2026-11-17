@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraceHunt - Synthetic Movement Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">TraceHunt</div>
+            <nav class="nav">
+                <a href="#" class="nav-item active" data-tab="overview">Overview</a>
+                <a href="#" class="nav-item" data-tab="cases">Cases</a>
+                <a href="#" class="nav-item" data-tab="area">Area search</a>
+                <a href="#" class="nav-item" data-tab="person">Person lookup</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <!-- 1. Overview Section -->
+            <section id="section-overview" class="view-section">
+                <h1>System Overview</h1>
+                <p class="subtitle">Synthetic movement analysis and incident investigation for Ahmedabad.</p>
+                <div class="metric-grid" id="overview-metrics">
+                    <div class="card"><div class="label">People Tracked</div><div class="value" id="cnt-people">14,000</div></div>
+                    <div class="card"><div class="label">Locations Monitored</div><div class="value" id="cnt-locations">208</div></div>
+                    <div class="card"><div class="label">Incidents Investigated</div><div class="value" id="cnt-incidents">8</div></div>
+                    <div class="card"><div class="label">Movement Records</div><div class="value" id="cnt-records">6,548,977 (460 MB)</div></div>
+                    <div class="card"><div class="label">HDFS Blocks</div><div class="value" id="cnt-blocks">4 (128 MB each)</div></div>
+                </div>
+
+                <h2>Big Data Architecture Flow (BDS Concept)</h2>
+                <div class="bds-flow-grid">
+                    <div class="flow-card">
+                        <div class="step-num">Step 1</div>
+                        <h3>Distributed Storage (HDFS)</h3>
+                        <p><strong>483 MB movement data</strong> is too big for a single machine's memory. It is split into <strong>4 HDFS blocks</strong> (128 MB each) and stored across 3 computers (1 Mac + 2 Windows laptops).</p>
+                    </div>
+                    <div class="flow-card">
+                        <div class="step-num">Step 2</div>
+                        <h3>Fast Parallel Processing (Apache Spark)</h3>
+                        <p><strong>Apache Spark</strong> distributes search jobs to worker laptops. It scans 6.5 million movement records in seconds to find who was near the crime scene and who spied on it before.</p>
+                    </div>
+                    <div class="flow-card">
+                        <div class="step-num">Step 3</div>
+                        <h3>Database Storage (MongoDB)</h3>
+                        <p>Results, suspect profiles, and locations are stored in <strong>MongoDB</strong> so the web app can search and display them instantly.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. Cases Section -->
+            <section id="section-cases" class="view-section" style="display: none;">
+                <h1>Incident Cases</h1>
+                <p class="subtitle">Select any crime case to see the suspects found by Big Data.</p>
+
+                <div id="cases-list-view">
+                    <div class="table-container">
+                        <table id="tbl-cases">
+                            <thead>
+                                <tr>
+                                    <th>Case ID</th>
+                                    <th>Crime Type</th>
+                                    <th>Location</th>
+                                    <th>Area</th>
+                                    <th>Time of Crime</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="case-detail-view" style="display: none;">
+                    <button id="btn-back-cases" class="btn-secondary">&larr; Back to Cases</button>
+                    <div id="case-detail-content"></div>
+                </div>
+            </section>
+
+            <!-- 3. Area Search Section (100m Radius) -->
+            <section id="section-area" class="view-section" style="display: none;">
+                <h1>Area Search</h1>
+                <p class="subtitle">Select a location, date, and time to find all people present in the area.</p>
+
+                <div style="background:#f9f9f9; border:1px solid #e0e0e0; border-radius:4px; padding:16px; margin-bottom:20px;">
+                    <div class="filter-bar" style="margin-bottom:0;">
+                        <div>
+                            <label style="display:block; font-size:12px; margin-bottom:4px; font-weight:600;">Location:</label>
+                            <select id="select-area-location" style="min-width: 280px;">
+                                <option value="LOC0004">Maninagar Express ATM (Maninagar)</option>
+                                <option value="LOC0001">Ratna Diamond Jewellers (Manek Chowk)</option>
+                                <option value="LOC0002">Apex Commercial Bank (CG Road)</option>
+                                <option value="LOC0003">Highway Fuel Station (SG Highway)</option>
+                                <option value="LOC0005">Phoenix Grand Mall (Ashram Road)</option>
+                                <option value="LOC0006">Sabarmati Riverfront Promenade (Riverfront)</option>
+                                <option value="LOC0007">Law Garden Woodland Alley (Law Garden)</option>
+                                <option value="LOC0008">Kankaria West Quiet Gate (Kankaria)</option>
+                                <option value="LOC0083">Sola Flyover Junction (Sola)</option>
+                                <option value="LOC0151">Vastrapur Lake Road (Vastrapur)</option>
+                                <option value="LOC0031">Sabarmati Bus Station (Sabarmati)</option>
+                                <option value="LOC0041">Danilimda Crossroad (Danilimda)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display:block; font-size:12px; margin-bottom:4px; font-weight:600;">Date & Time:</label>
+                            <input type="text" id="input-area-time" value="2026-09-04 03:15:00" style="width: 175px;">
+                        </div>
+                        <div style="align-self: flex-end;">
+                            <button id="btn-search-area">🔍 Find People in Area</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="area-results-container" style="display: none;">
+                    <h2 id="area-results-title">People Present in Area</h2>
+                    <div class="table-container">
+                        <table id="tbl-area-people">
+                            <thead>
+                                <tr>
+                                    <th>Person ID</th>
+                                    <th>Name</th>
+                                    <th>Job</th>
+                                    <th>Home Locality</th>
+                                    <th>Distance</th>
+                                    <th>Time Detected</th>
+                                    <th>Source</th>
+                                    <th>Investigation Action</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Person Lookup Section -->
+            <section id="section-person" class="view-section" style="display: none;">
+                <h1>Person Lookup</h1>
+                <p class="subtitle">Search any person ID to see their profile and movement timeline.</p>
+
+                <div class="search-bar">
+                    <input type="text" id="input-person-search" placeholder="Enter Person ID (e.g. P000531, P000501)">
+                    <button id="btn-search-person">Search Person</button>
+                </div>
+
+                <div id="person-profile-container" style="display: none;">
+                    <div class="profile-card" id="person-profile-details"></div>
+                    <h2>Movement Timeline</h2>
+                    <div class="table-container">
+                        <table id="tbl-person-journey">
+                            <thead>
+                                <tr>
+                                    <th>Event ID</th>
+                                    <th>Date & Time</th>
+                                    <th>Place</th>
+                                    <th>Source</th>
+                                    <th>Evidence & Clues Found</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

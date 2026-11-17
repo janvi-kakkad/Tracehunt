@@ -1,0 +1,8 @@
+# Spark Standalone Cluster Configuration Template
+
+spark.master                     spark://MASTER_HOST:7077
+spark.driver.memory              4g
+spark.executor.memory            2g
+spark.executor.cores             2
+spark.serializer                 org.apache.spark.serializer.KryoSerializer
+spark.sql.shuffle.partitions     8

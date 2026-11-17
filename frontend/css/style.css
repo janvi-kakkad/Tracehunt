@@ -1,0 +1,446 @@
+/* TraceHunt Minimalist Style Sheet */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #fafafa;
+    border-right: 1px solid #dddddd;
+    padding: 24px 16px;
+    flex-shrink: 0;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 24px;
+    padding-left: 8px;
+    letter-spacing: -0.2px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.nav-item {
+    display: block;
+    padding: 8px 12px;
+    color: #555555;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.nav-item:hover {
+    background-color: #f0f0f0;
+    color: #222222;
+}
+
+.nav-item.active {
+    background-color: #eaf1f8;
+    color: #2b6cb0;
+    font-weight: 500;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 32px 40px;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    margin: 24px 0 12px 0;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #666666;
+    margin-bottom: 24px;
+    font-size: 13px;
+}
+
+.disclaimer {
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+/* Metric Cards */
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.card .label {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card .value {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2b6cb0;
+}
+
+/* Filters & Search */
+.filter-bar, .search-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 13px;
+    background: #ffffff;
+    color: #222222;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #2b6cb0;
+}
+
+button {
+    padding: 6px 14px;
+    background-color: #2b6cb0;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23568c;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
+    margin-bottom: 16px;
+}
+
+.btn-secondary:hover {
+    background-color: #f7f7f7;
+}
+
+.btn-preset {
+    background-color: #ffffff;
+    color: #2b6cb0;
+    border: 1px solid #b8daff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.btn-preset:hover {
+    background-color: #eaf1f8;
+}
+
+/* Tables */
+.table-container {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    overflow-x: auto;
+    background: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    color: #444444;
+}
+
+tr:hover {
+    background-color: #fafafa;
+}
+
+/* Cluster Logs */
+.cluster-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.log-box {
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    font-family: monospace;
+    font-size: 12px;
+    white-space: pre-wrap;
+    max-height: 400px;
+    overflow-y: auto;
+    color: #333333;
+}
+
+/* Lead Cards */
+.lead-card {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #ffffff;
+}
+
+.lead-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.suspect-demographics {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.suspect-desc {
+    font-size: 13px;
+    color: #333333;
+    line-height: 1.45;
+    margin-bottom: 12px;
+    background: #fbfbfb;
+    border-left: 3px solid #2b6cb0;
+    padding: 8px 12px;
+}
+
+.lead-reasons {
+    list-style: disc;
+    padding-left: 20px;
+    color: #444444;
+    font-size: 12.5px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.btn-inspect {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+.btn-inspect:hover {
+    background-color: #1e4e80;
+}
+
+/* Method box */
+.methodology-box {
+    background-color: #f0f7ff;
+    border: 1px solid #cce3f8;
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #1a4971;
+}
+
+.methodology-box h4 {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #10385c;
+}
+
+/* Person Case Alert Box */
+.person-case-banner {
+    background: #fff9e6;
+    border: 1px solid #f2db9b;
+    border-left: 4px solid #d69e2e;
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+}
+.person-case-banner h4 {
+    color: #975a16;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.person-case-banner p {
+    font-size: 13px;
+    color: #744210;
+    margin-bottom: 8px;
+}
+
+/* Evidence Badges */
+.badge-crime {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #ffe3e3;
+    color: #c53030;
+    border: 1px solid #feb2b2;
+}
+
+.badge-casing {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #feebc8;
+    color: #c05621;
+    border: 1px solid #fbd38d;
+}
+
+.badge-getaway {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #e9d8fd;
+    color: #6b46c1;
+    border: 1px solid #d6bcfa;
+}
+
+.badge-blackout {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #edf2f7;
+    color: #2d3748;
+    border: 1px solid #cbd5e0;
+}
+
+.badge-alibi {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #c6f6d5;
+    color: #22543d;
+    border: 1px solid #9ae6b4;
+}
+
+.badge-routine {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #f7fafc;
+    color: #718096;
+    border: 1px solid #e2e8f0;
+}
+
+.badge-culprit {
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #e2e8f0;
+    color: #2b6cb0;
+}
+
+/* BDS Architecture Flow Grid */
+.bds-flow-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.flow-card {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 16px;
+    background: #fafafa;
+}
+
+.flow-card h3 {
+    margin-bottom: 6px;
+    color: #2b6cb0;
+}
+
+.flow-card p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 1.45;
+}
+
+.step-num {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #888888;
+    margin-bottom: 4px;
+}
